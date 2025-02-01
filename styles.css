@@ -4,7 +4,7 @@
   background-clip: text ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animate-gradient 8s linear infinite;
+  animation: animate-gradient 5s linear infinite;
 }
 
 @keyframes animate-gradient{
