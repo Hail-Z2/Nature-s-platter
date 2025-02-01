@@ -18,6 +18,16 @@
     tailwind.config = {
       theme: {
         extend: {
+          animation: {
+
+
+          },
+          keyframes :{
+            
+          },
+
+
+
           colors: {
             clifford: '#da373d',
             'accent':'#179800',
@@ -94,11 +104,15 @@
       
     </nav>
     <!-- Banner -->
-    <section class="container mx-auto anima">
+     
+    <section class="container mx-auto">
+      <marquee class="font-semibold" behavior="scroll" direction="left">🛒 Free Delivery on Orders Above $50! 🌿 100% Fresh & Organic Grocery – Order Today! 🥛 Dairy Products at the Best Prices – Shop Now! </marquee>
       <div class="my-12">
         <h1 class="text-4xl lg:text-6xl px-3 text-center font-semibold">Freshness <span class="text-accent">You Can <br> Count</span> On, Prices You’ll Love!</h1>
         <p class="text-center text-xl mt-12">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
-        <img class="flex justify-self-center px-3" src="./assets/hero-vegetables.png" alt="">
+        <div class="flex justify-center items-center">
+          <div class=" rounded-lg w-full md:w-1/2 transform duration-500 hover:translate-x-5 hover:-translate-y-5 pointer-events-none">
+        <img class="flex justify-self-center px-3  transform duration-500 hover:-translate-x-10 hover:translate-y-10 pointer-events-auto " src="./assets/hero-vegetables.png" alt="">
       </div>
 
     </section>
@@ -156,7 +170,7 @@
           <h2 class="text-centers text-xl lg:2xl font-semibold">
             Healthy Products
           </h2>
-          <p class="text-base lg:text-xl">Our products are freshly cut from our different fields without any pesticides or inorganic substances</p>
+          <p class="text-base lg:text-xl">Our products are freshly cut from our different fields without any pesticides or inorganic substance</p>
         </div>
       </div>
    
