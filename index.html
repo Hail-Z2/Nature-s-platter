@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nature's Platter</title>
+  <link rel="stylesheet" href="styles.css">
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,16 +19,6 @@
     tailwind.config = {
       theme: {
         extend: {
-          animation: {
-
-
-          },
-          keyframes :{
-            
-          },
-
-
-
           colors: {
             clifford: '#da373d',
             'accent':'#179800',
@@ -109,11 +100,11 @@
       <marquee class="font-semibold text-white bg-accent" behavior="scroll" direction="left">🛒 Free Delivery on Orders Above $50! 🌿 100% Fresh & Organic Grocery – Order Today! 🥛 Dairy Products at the Best Prices – Shop Now! </marquee>
       <div class="my-12">
         <div class="bg-accent w-1/5 hidden lg:flex relative rounded-xl shadow-lg shadow-lime-700 ">
-          <div class="font-semibold text-xl animate-pulse rounded-xl  text-center  p-2 text-white bg-gradient-to-r from-yellow-300 to-green-600">More Products Coming Soon Only on Nature's Platter</div>
+          <div class="font-semibold text-xl animate-pulse rounded-xl  text-center  p-2 text-white bg-gradient-to-r from-yellow-300 to-green-600 bg-">More Products Coming Soon Only on Nature's Platter</div>
         </div>
         
 
-        <h1 class="text-4xl lg:text-6xl px-3 text-center font-semibold">Freshness <span class="text-accent">You Can <br> Count</span> On, Prices You’ll Love!</h1>
+        <h1 class="text-4xl lg:text-6xl px-3 text-center font-semibold ">Freshness <span class="animation">You Can <br> Count</span> On, Prices You’ll Love!</h1>
         <p class="text-center text-xl mt-12">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
         <div class="flex justify-center items-center">
           <div class=" rounded-lg w-full md:w-1/2 transform duration-500 hover:translate-x-5 hover:-translate-y-5 pointer-events-none">

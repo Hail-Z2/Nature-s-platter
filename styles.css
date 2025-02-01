@@ -1,0 +1,14 @@
+.animation{
+  background: linear-gradient(to right,#F3FF90, #059212,#06D001,#9BEC00,#F3FF90 );
+  background-size: 200%;
+  background-clip: text ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 8s linear infinite;
+}
+
+@keyframes animate-gradient{
+  to{
+    background-position: 200%;
+  }
+}
